@@ -43,3 +43,17 @@ $$
 
 ```matlab
 main
+```
+---
+## 📚 References
+
+> Salahudden, Dwivedi, V. S., Dwivedi, P. N., Giri, D. K., & Ghosh, A. K. (2021).  
+> *Aircraft Flat-Spin Recovery Using Sliding-Mode Based Attitude and Altitude Control.*  
+> *Proceedings of the Institution of Mechanical Engineers, Part G: Journal of Aerospace Engineering*, **235**(8), 924–936.  
+> [SAGE Publications, London, UK]  
+> [https://doi.org/10.1177/0954410020964674](https://doi.org/10.1177/0954410020964674)
+
+---
+
+
+
