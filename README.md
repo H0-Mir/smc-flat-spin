@@ -16,7 +16,7 @@ $$
 	g_{\delta_e}^{y_i} & g_{\delta_a}^{y_i} & g_{\delta_r}^{y_i} & g_{\delta_t}^{y_i}  
 \end{bmatrix}^{-1}
 \left[
-f^{y_i} + k_i(\dot{y}_i - \dot{y}_{d_i}) - \ddot{y}_{d_i} + \lambda_i \left| \tilde{s}_i \right|^{a_i} \operatorname{sgn}(\tilde{s}_i)
+f^{y_i} + k_i(\dot{y}_i - \dot{y}_{d_i}) - \ddot{y}_{d_i} + \lambda_i \left| \tilde{s}_i \right|^{a_i} \text{sgn}(\tilde{s}_i)
 \right]
 $$
 
@@ -29,7 +29,7 @@ The Lyapunov candidate function is defined as:
 $$
 \tilde{V}_{i} = \frac{1}{2} \tilde{s}_{i}^\top \tilde{s}_{i}
 \implies
-\dot{\tilde{V}}_{i} = \tilde{s}_{i}^\top(-\lambda_{i}|\tilde{s}_{i}|^{a_{i}} \operatorname{sgn}(\tilde{s}_{i}))
+\dot{\tilde{V}}_{i} = \tilde{s}_{i}^\top(-\lambda_{i}|\tilde{s}_{i}|^{a_{i}} \text{sgn}(\tilde{s}_{i}))
 = -\lambda_{i}|\tilde{s}_{i}|^{a_{i}+1}
 $$
 
